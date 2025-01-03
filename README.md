@@ -17,12 +17,12 @@ Here are some visuals of the project layout and functionality:
 
 <div style="display: flex; width: 100%; justify-content: center; align-items: flex-start;">
   <div style="flex: 1; display: flex; justify-content: center;">
-    <img src="./public/screenshots/hotel_full.png" alt="Main view" style="width: 80%; height: auto;" />
+    <img src="./public/screenshots/hotel_full.png" alt="Main view" style="width: 45%; height: auto;" />
   </div>
 
   <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" style="width: 80%; height: auto; margin-bottom: 10px;" />
-    <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" style="width: 80%; height: auto;" />
+    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" style="width: 50%; height: auto; margin-bottom: 10px;" />
+    <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" style="width: 50%; height: auto;" />
   </div>
 </div>
 
