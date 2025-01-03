@@ -1,8 +1,13 @@
 {
     "welcome": "Welcome",
+    "en": "English/ EN",
+    "uk": "Ukrainian/ UK",
     "check_in": "Check-in",
     "check_out": "Check-out",
     "view_rooms": "View Rooms",
-    "contact_us": "Contact Us"
+    "contact_us": "Contact Us",
+    "our_hotel": "Our Hotel",
+    "room_rates": "Room & Rates",
+    "facilities": "Facilities"
   }
   

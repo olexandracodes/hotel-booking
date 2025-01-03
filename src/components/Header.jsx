@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, Button, Select, MenuItem } from "@mui/material";
+import { AppBar, Toolbar, Button, Select, MenuItem, Box } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
@@ -14,19 +14,50 @@ const Header = () => {
 	};
 
 	return (
-		<AppBar position="static" sx={{ mb: 2 }}>
-			<Toolbar>
-				<Button color="inherit">Home</Button>
-				<Button color="inherit">Rooms</Button>
-				<Button color="inherit">Contact</Button>
-				<Select
-					value={i18n.language}
-					onChange={handleLanguageChange}
-					sx={{ marginLeft: "auto", color: "#fff", borderColor: "#fff" }}
+		<AppBar
+			position="static"
+			sx={{
+				backgroundColor: "#F5F5F5",
+				boxShadow: "none",
+				color: "#957554",
+				paddingY: 2,
+			}}
+		>
+			<Toolbar sx={{ justifyContent: "center" }}>
+				<Box
+					sx={{
+						display: "flex",
+						alignItems: "center",
+						gap: 3,
+					}}
 				>
-					<MenuItem value="en">English</MenuItem>
-					<MenuItem value="uk">Українська</MenuItem>
-				</Select>
+					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+						{t("our_hotel")}
+					</Button>
+					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+						{t("room_rates")}
+					</Button>
+					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+						{t("facilities")}
+					</Button>
+					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+						{t("contact_us")}
+					</Button>
+					<Select
+						value={i18n.language}
+						onChange={handleLanguageChange}
+						sx={{
+							color: "#957554",
+							border: "1px solid #957554",
+							fontWeight: "bold",
+							"& .MuiSvgIcon-root": { color: "#957554" },
+						}}
+						displayEmpty
+					>
+						<MenuItem value="en">{t("en")}</MenuItem>
+						<MenuItem value="uk">{t("uk")}</MenuItem>
+					</Select>
+				</Box>
 			</Toolbar>
 		</AppBar>
 	);
