@@ -1,17 +1,21 @@
 {
-    "welcome": "WELCOME TO OUR HOTEL",
-    "en": "English/ EN",
-    "uk": "Ukrainian/ UK",
-    "check_in": "Check-in",
-    "check_out": "Check-out",
-    "view_rooms": "View Rooms",
-    "contact_us": "Contact Us",
-    "our_hotel": "Our Hotel",
-    "room_rates": "Room & Rates",
-    "facilities": "Facilities",
-    "select_city": "Select City",
-    "check_availability": "Check Availability",
-    "slogan": "Good people. Good thinking. Good feeling.",
-    "explore": "EXPLORE"
-  }
-  
+	"welcome": "WELCOME TO OUR HOTEL",
+	"en": "English/ EN",
+	"uk": "Ukrainian/ UK",
+	"check_in": "Check-in",
+	"check_out": "Check-out",
+	"view_rooms": "View Rooms",
+	"contact_us": "Contact Us",
+	"our_hotel": "Our Hotel",
+	"room_rates": "Room & Rates",
+	"facilities": "Facilities",
+	"select_city": "Select City",
+	"check_availability": "Check Availability",
+	"slogan": "Good people. Good thinking. Good feeling.",
+	"explore": "EXPLORE",
+	"rooms_kitchen": "Kitchen",
+	"rooms_pool": "Pool",
+	"rooms_wifi": "WiFi",
+	"rooms_gym": "Gym",
+	"rooms_taxi": "Taxi"
+}

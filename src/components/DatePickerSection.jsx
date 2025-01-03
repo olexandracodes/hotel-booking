@@ -9,7 +9,6 @@ import {
 	InputAdornment,
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
@@ -20,6 +19,7 @@ const DatePickerSection = () => {
 	return (
 		<Box
 			sx={{
+				backgroundColor: "#000",
 				display: "flex",
 				justifyContent: "center",
 				alignItems: "center",
