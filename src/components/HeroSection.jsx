@@ -8,20 +8,25 @@ const HeroSection = () => {
 	return (
 		<Box
 			sx={{
-				height: "50vh",
+				height: "790px",
+				width: "100%",
 				backgroundImage:
-					"url(https://images.unsplash.com/photo-1529290130-4ca3753253ae?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+					"url(https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 				display: "flex",
+				flexDirection: "column",
 				alignItems: "center",
 				justifyContent: "center",
 				color: "#fff",
 				textAlign: "center",
 			}}
 		>
-			<Typography variant="h2" sx={{ fontFamily: "'Ubuntu', sans-serif" }}>
+			<Typography variant="h2" sx={{ fontFamily: "'Ubuntu', sans-serif", fontWeight: "bold", fontSize: "80px", marginBottom: "16px", }}>
 				{t("welcome")}
+			</Typography>
+			<Typography sx={{ fontFamily: "'Ubuntu', sans-serif",  fontSize: "24px" }}>
+				{t("slogan")}
 			</Typography>
 		</Box>
 	);

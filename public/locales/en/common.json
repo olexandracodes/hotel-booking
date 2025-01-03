@@ -1,5 +1,5 @@
 {
-    "welcome": "Welcome",
+    "welcome": "WELCOME TO OUR HOTEL",
     "en": "English/ EN",
     "uk": "Ukrainian/ UK",
     "check_in": "Check-in",
@@ -10,6 +10,7 @@
     "room_rates": "Room & Rates",
     "facilities": "Facilities",
     "select_city": "Select City",
-    "check_availability": "Check Availability"
+    "check_availability": "Check Availability",
+    "slogan": "Good people. Good thinking. Good feeling."
   }
   
