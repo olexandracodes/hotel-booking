@@ -15,15 +15,17 @@ This project is a pixel-perfect multi-language landing page brought to life from
 
 Here are some visuals of the project layout and functionality:
 
-<div style="display: flex; justify-content: flex-start; align-items: flex-start; width: 800px; height: 800px;">
-  <img src="./public/screenshots/hotel_full.png" alt="Main view" style="width: 45%; height: auto;">
-
-  <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; width: 50%; padding-left: 10px;">
-    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" style="width: 100%; height: 48%; object-fit: cover;">
-    <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" style="width: 100%; height: 48%; object-fit: cover;">
-  </div>
-</div>
-
+<table>
+  <tr>
+    <td style="width: 33%;">
+     <img src="./public/screenshots/hotel_full.png" alt="Main view" >
+    </td>
+    <td style="width: 67%;">
+      <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" >
+      <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view">
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 
