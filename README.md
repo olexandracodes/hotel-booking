@@ -1,40 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# <a href="https://" target="_blank"> Pixel-Perfect Hotel Landing Page (Jan 2025)</a>
 
-## Getting Started
+This project is a pixel-perfect multi-language landing page brought to life from a Figma design using a powerful tech stack. 
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern Tech Stack**: Built with React, Next.js, Material-UI (MUI), i18n, and styled using CSS-in-JS.
+- **Multi-language Support**: Toggle easily between English and Ukrainian.
+- **Pixel-Perfect Design**: Matches the original Figma layout to the smallest detail.
+- **Responsive Layout**: Looks and works great on any device.
+- **Interactive Components**: Includes a date picker, room grid, and clear call-to-action buttons.
+- **Open Source Images**: All visuals come from free and open sources.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Here are some visuals of the project layout and functionality:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="./public/screenshots/hotel_full.png" alt="Main view" width="400"/>
+  </div>
+  <div style="flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
+    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" width="200"/>
+    <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" width="200"/>
+  </div>
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React**: For building the user interface.
+- **Next.js**: To handle server-side rendering and routing.
+- **Material-UI (MUI)**: For consistent and modern design components.
+- **i18n**: For implementing multi-language support.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install the required dependencies.
+4. Start the development server with `npm run dev`.
+5. Open `http://localhost:3000` in your browser to view the landing page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+[Olexandra Kunytska](https://github.com/olexandracodes) - Frontend Developer
