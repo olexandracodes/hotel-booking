@@ -18,5 +18,7 @@
 	"rooms_wifi": "WiFi",
 	"rooms_gym": "Зал",
 	"rooms_taxi": "Таксі",
-  "check_rates": "Переглянути ціни"
+  "check_rates": "Переглянути ціни",
+  "get": "Отримати номер!",
+  "book": "Забронювати"
 }

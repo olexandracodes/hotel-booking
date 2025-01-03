@@ -6,7 +6,7 @@ import {
 	CardMedia,
 	CardContent,
 	Typography,
-    Button
+	Button,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import { useTranslation } from "react-i18next";
@@ -78,19 +78,19 @@ const RoomGrid = () => {
 		<Box
 			sx={{
 				backgroundColor: "#fff",
-				margin: "60px 60px 0" ,
+				margin: "60px 60px 0",
 				height: "auto",
 				position: "relative",
 				top: "-140px",
 				zIndex: 1,
-                borderRadius: "10px",
+				borderRadius: "10px",
 			}}
 		>
 			<Typography
 				variant="h4"
 				sx={{
 					textAlign: "center",
-                    padding: "42px 0",
+					padding: "42px 0",
 					fontFamily: "'Ubuntu', sans-serif",
 					fontSize: "45px",
 					color: "#957554",
@@ -117,11 +117,11 @@ const RoomGrid = () => {
 				))}
 			</Grid>
 
-            <Typography
+			<Typography
 				variant="h4"
 				sx={{
 					textAlign: "center",
-                    padding: "42px 0",
+					padding: "42px 0",
 					fontFamily: "'Ubuntu', sans-serif",
 					fontSize: "45px",
 					color: "#957554",
@@ -129,60 +129,104 @@ const RoomGrid = () => {
 			>
 				{t("room_rates")}
 			</Typography>
-			<Grid container spacing={3} justifyContent="center" sx={{ marginBottom: "80px" }}>
-			{rooms.map((room) => (
-				<Grid item xs={6} key={room.id}>
-					<Card sx={{ position: "relative" }}>
-						<CardMedia
-							component="img"
-							height="360px"
-							image={room.image}
-							alt={room.name}
-							sx={{
-								objectFit: "cover",
-							}}
-						/>
-						<Box
-							sx={{
-								position: "absolute",
-								bottom: 0,
-								left: 0,
-								width: "100%",
-								height: "60%",
-								background: "linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent)",
-							}}
-						/>
-						<CardContent
-							sx={{
-								position: "absolute",
-								bottom: "10px",
-								left: "50%",
-								transform: "translateX(-50%)",
-								textAlign: "center",
-								color: "#fff",
-							}}
-						>
-							<Typography sx={{fontSize: "32px", fontWeight: "500"}}>{room.name}</Typography>
-							<Button
-								variant="contained"
+			<Grid
+				container
+				spacing={3}
+				justifyContent="center"
+				sx={{ marginBottom: "80px" }}
+			>
+				{rooms.map((room) => (
+					<Grid item xs={6} key={room.id}>
+						<Card sx={{ position: "relative" }}>
+							<CardMedia
+								component="img"
+								height="360px"
+								image={room.image}
+								alt={room.name}
 								sx={{
-									marginTop: 2,
-									backgroundColor: "#DFAA5B",
+									objectFit: "cover",
+								}}
+							/>
+							<Box
+								sx={{
+									position: "absolute",
+									bottom: 0,
+									left: 0,
+									width: "100%",
+									height: "60%",
+									background:
+										"linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent)",
+								}}
+							/>
+							<CardContent
+								sx={{
+									position: "absolute",
+									bottom: "10px",
+									left: "50%",
+									transform: "translateX(-50%)",
+									textAlign: "center",
 									color: "#fff",
-									textTransform: "none",
-									fontSize: "16px",
-									padding: "10px 20px",
-									borderRadius: "10px",
 								}}
 							>
-								{t("check_rates")}
-							</Button>
-						</CardContent>
-					</Card>
-				</Grid>
-			))}
-		</Grid>
+								<Typography sx={{ fontSize: "32px", fontWeight: "500" }}>
+									{room.name}
+								</Typography>
+								<Button
+									variant="contained"
+									sx={{
+										marginTop: 2,
+										backgroundColor: "#DFAA5B",
+										color: "#fff",
+										textTransform: "none",
+										fontSize: "16px",
+										padding: "10px 20px",
+										borderRadius: "10px",
+									}}
+								>
+									{t("check_rates")}
+								</Button>
+							</CardContent>
+						</Card>
+					</Grid>
+				))}
+			</Grid>
 
+			<Box
+            sx={{
+                display: "flex",
+				flexDirection: "column",
+				alignItems: "center",
+				justifyContent: "center",
+            }}
+            >
+				<Typography
+					variant="h4"
+					sx={{
+						textAlign: "center",
+						padding: "42px 0",
+						fontFamily: "'Ubuntu', sans-serif",
+						fontSize: "45px",
+						color: "#957554",
+						fontWeight: "500",
+					}}
+				>
+					{t("get")}
+				</Typography>
+				<Button
+					variant="contained"
+					sx={{
+						marginTop: 1,
+						backgroundColor: "#DFAA5B",
+						color: "#fff",
+						textTransform: "none",
+						fontSize: "24px",
+						padding: "8px 160px",
+						borderRadius: "10px",
+					}}
+				>
+					{t("book")}
+				</Button>
+			</Box>
 		</Box>
 	);
 };

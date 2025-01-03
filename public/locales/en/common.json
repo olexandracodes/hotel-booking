@@ -18,5 +18,7 @@
 	"rooms_wifi": "WiFi",
 	"rooms_gym": "Gym",
 	"rooms_taxi": "Taxi",
-  "check_rates": "Check Rates"
+  "check_rates": "Check Rates",
+  "get": "Get a room already!",
+  "book": "Book Now"
 }
