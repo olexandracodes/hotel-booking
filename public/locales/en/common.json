@@ -7,7 +7,7 @@
 	"view_rooms": "View Rooms",
 	"contact_us": "Contact Us",
 	"our_hotel": "Our Hotel",
-	"room_rates": "Room & Rates",
+	"room_rates": "Rooms & Rates",
 	"facilities": "Facilities",
 	"select_city": "Select City",
 	"check_availability": "Check Availability",
@@ -17,5 +17,6 @@
 	"rooms_pool": "Pool",
 	"rooms_wifi": "WiFi",
 	"rooms_gym": "Gym",
-	"rooms_taxi": "Taxi"
+	"rooms_taxi": "Taxi",
+  "check_rates": "Check Rates"
 }
