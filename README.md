@@ -20,8 +20,8 @@ Here are some visuals of the project layout and functionality:
     <img src="./public/screenshots/hotel_full.png" alt="Main view" width="400" />
   </div>
   <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
-    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" width="400" />
-    <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" width="400" />
+    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" width="200" />
+    <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" width="200" />
   </div>
 </div>
 
