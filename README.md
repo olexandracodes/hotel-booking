@@ -1,6 +1,6 @@
 # <a href="https://" target="_blank"> Pixel-Perfect Hotel Landing Page (Jan 2025)</a>
 
-This project is a pixel-perfect multi-language landing page brought to life from a Figma design using a powerful tech stack. 
+This project is a pixel-perfect multi-language landing page brought to life from a Figma design using a powerful tech stack.
 
 ## Features
 
@@ -15,14 +15,10 @@ This project is a pixel-perfect multi-language landing page brought to life from
 
 Here are some visuals of the project layout and functionality:
 
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="./public/screenshots/hotel_full.png" alt="Main view" width="400"/>
-  </div>
-  <div style="flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
-    <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" width="200"/>
+<div style="align: center;" >
+  <img src="./public/screenshots/hotel_full.png" alt="Main view" width="400"/>
+  <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" width="200"/>
     <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view" width="200"/>
-  </div>
 </div>
 
 ## Tech Stack
@@ -31,7 +27,6 @@ Here are some visuals of the project layout and functionality:
 - **Next.js**: To handle server-side rendering and routing.
 - **Material-UI (MUI)**: For consistent and modern design components.
 - **i18n**: For implementing multi-language support.
-
 
 ## How to Run
 
