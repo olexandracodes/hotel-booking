@@ -20,7 +20,9 @@ const HeroSection = () => {
 				textAlign: "center",
 			}}
 		>
-			<Typography variant="h2">{t("welcome")}</Typography>
+			<Typography variant="h2" sx={{ fontFamily: "'Ubuntu', sans-serif" }}>
+				{t("welcome")}
+			</Typography>
 		</Box>
 	);
 };
