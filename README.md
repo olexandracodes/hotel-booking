@@ -17,10 +17,10 @@ Here are some visuals of the project layout and functionality:
 
 <table>
   <tr>
-    <td style="width: 55%;">
+    <td style="width: 50%;">
      <img src="./public/screenshots/hotel_full.png" alt="Main view" >
     </td>
-    <td style="width: 45%;">
+    <td style="width: 40%;">
       <img src="./public/screenshots/hotel_lang.png" alt="Lang switcher" >
       <img src="./public/screenshots/hotel_uk.png" alt="Ukrainian view">
     </td>
