@@ -4,7 +4,7 @@ This project is a pixel-perfect multi-language landing page brought to life from
 
 ## Features
 
-- **Modern Tech Stack**: Built with React, Next.js, Material-UI (MUI), i18n, and styled using CSS-in-JS.
+- **Modern Tech Stack**: Built with React, Next.js, Material-UI (MUI), and i18n.
 - **Multi-language Support**: Toggle easily between English and Ukrainian.
 - **Pixel-Perfect Design**: Matches the original Figma layout to the smallest detail.
 - **Responsive Layout**: Looks and works great on any device.
