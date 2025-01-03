@@ -1,5 +1,6 @@
 import { appWithTranslation } from "next-i18next";
 import Head from "next/head";
+
 import "../styles/globals.css";
 import "../i18n";
 

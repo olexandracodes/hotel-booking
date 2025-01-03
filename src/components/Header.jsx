@@ -31,16 +31,40 @@ const Header = () => {
 						gap: 3,
 					}}
 				>
-					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+					<Button
+						sx={{
+							color: "#957554",
+							fontWeight: "bold",
+							fontFamily: "'Ubuntu', sans-serif",
+						}}
+					>
 						{t("our_hotel")}
 					</Button>
-					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+					<Button
+						sx={{
+							color: "#957554",
+							fontWeight: "bold",
+							fontFamily: "'Ubuntu', sans-serif",
+						}}
+					>
 						{t("room_rates")}
 					</Button>
-					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+					<Button
+						sx={{
+							color: "#957554",
+							fontWeight: "bold",
+							fontFamily: "'Ubuntu', sans-serif",
+						}}
+					>
 						{t("facilities")}
 					</Button>
-					<Button sx={{ color: "#957554", fontWeight: "bold" }}>
+					<Button
+						sx={{
+							color: "#957554",
+							fontWeight: "bold",
+							fontFamily: "'Ubuntu', sans-serif",
+						}}
+					>
 						{t("contact_us")}
 					</Button>
 					<Select
@@ -51,6 +75,7 @@ const Header = () => {
 							border: "1px solid #957554",
 							fontWeight: "bold",
 							"& .MuiSvgIcon-root": { color: "#957554" },
+							fontFamily: "'Ubuntu', sans-serif",
 						}}
 						displayEmpty
 					>
