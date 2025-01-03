@@ -108,7 +108,7 @@ const RoomGrid = () => {
 					<Grid item xs={2} sm={2} key={facility.id} textAlign="center">
 						<IconButton sx={{ color: "#DFAA5B" }}>{facility.icon}</IconButton>
 						<Typography
-							sx={{ fontSize: "16px", fontWeight: "300", color: "#333" }}
+							sx={{ fontSize: "16px", fontWeight: "300", color: "#957554" }}
 						>
 							{facility.label}
 						</Typography>
