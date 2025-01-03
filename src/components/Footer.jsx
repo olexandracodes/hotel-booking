@@ -7,7 +7,7 @@ const Footer = () => {
 			sx={{
 				mt: 4,
 				py: 2,
-				backgroundColor: "#f5f5f5",
+				backgroundColor: "#000",
 				textAlign: "center",
 			}}
 		>
