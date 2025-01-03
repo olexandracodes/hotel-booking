@@ -17,7 +17,7 @@ Here are some visuals of the project layout and functionality:
 
 <table>
   <tr>
-    <td style="width: 50%;">
+    <td style="width: 60%;">
      <img src="./public/screenshots/hotel_full.png" alt="Main view" >
     </td>
     <td style="width: 40%;">
