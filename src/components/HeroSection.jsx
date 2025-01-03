@@ -8,7 +8,7 @@ const HeroSection = () => {
 	return (
 		<Box
 			sx={{
-				height: "790px",
+				height: "640px",
 				width: "100%",
 				backgroundImage:
 					"url(https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
